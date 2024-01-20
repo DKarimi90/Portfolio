@@ -69,6 +69,9 @@
   .project-links {
     @apply text-xs md:text-2xl
   }
+  .regular-text {
+    @apply dark:text-[var(--secondary1)]
+  }
 }
 
 html, body {
