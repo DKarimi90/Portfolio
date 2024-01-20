@@ -15,7 +15,7 @@ const handleDarkToggle = () => {
 
   return (
     <div className={darkMode? 'dark': ''}>
-        <div className="dark:bg-hero bg-hero2">
+        <div className="dark:bg-hero">
       <Navbar handleDarkToggle={handleDarkToggle}/>
         <Home />
         <About />

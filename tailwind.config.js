@@ -12,7 +12,6 @@ export default {
       },
       backgroundImage: {
         hero: 'url("./images/1.jpg")', 
-        // hero2: 'url("../public/images/w2.jpeg")'
       },
             keyframes : {
         navbar: {
