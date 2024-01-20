@@ -7,7 +7,7 @@ const Contact = () => {
     <div name='contact' className="flex min-h-screen items-center justify-start px-2">
       <div className="mx-auto w-full max-w-[600px] regular-text">
         <h1 className="text-4xl font-medium">Let's Engage</h1>
-        <p className="mt-3">Email me at davmwa90@gmail.com or message me here:</p>
+        <p className="mt-3">Email me at <span className='text-[var(--primary2)]'>davmwa90@gmail.com</span> or message me here:</p>
         <form method="POST" action={submitForm} className="mt-10 px-2">
           <div className="dark:text-[var(--primary1)]">
             <div className='grid md:grid-cols-2 gap-6'>
@@ -74,7 +74,7 @@ const Contact = () => {
               </label>
             </div>
           </div>
-          <button type="submit" className="mt-5 rounded-md btn">
+          <button type="submit" className="mt-5 rounded-md btn text-sm md:text-base">
             Send Message
           </button>
         </form>
