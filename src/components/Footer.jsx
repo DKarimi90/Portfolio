@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className='w-full flex justify-center py-3 dark:text-[var(--primary1)]'>
-      <p>&copy; David {displayYear()} </p>
+      <p className='text-sm md:text-base'>&copy; David {displayYear()} </p>
     </div>
   )
 }
