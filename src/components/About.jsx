@@ -31,9 +31,9 @@ const About = () => {
             </section>
           </div>
         </div>
-        <div className='px-2 mt-6 flex justify-center'>
-          <button className='btn'>
-            <Link to='skills' smooth={true} duration='700'>
+        <div className='mt-6 flex justify-center'>
+          <button className=''>
+            <Link to='skills' smooth={true} duration='700' className='text-sm sm:text-xl btn'>
               More...
             </Link>
           </button>

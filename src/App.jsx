@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -18,6 +19,7 @@ const handleDarkToggle = () => {
       <Navbar handleDarkToggle={handleDarkToggle}/>
         <Home />
         <About />
+        <Skills />
       </div>
     </div>
   )

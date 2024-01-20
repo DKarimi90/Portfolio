@@ -31,7 +31,7 @@
     @apply py-3 text-lg border-b border-[var(--primary1)] cursor-pointer hover:text-[var(--primary1)] dark:text-[var(--primary1)] dark:border-[var(--secondary2)] dark:hover:text-[var(--secondary2)]
   }
   .btn {
-    @apply bg-[var(--secondary1)] dark:bg-[var(--primary)] dark:text-[white] px-8 py-2 rounded-md text-xl hover:bg-[var(--primary3)] dark:hover:bg-[var(--primary2)] hover:shadow-xl
+    @apply bg-[var(--secondary1)] dark:bg-[var(--primary)] dark:text-[white] px-4 py-1 rounded-md text-xl hover:bg-[var(--primary3)] dark:hover:bg-[var(--primary2)] hover:shadow-xl
   }
   .active-link {
     @apply text-[var(--primary2)] dark:text-[var(--primary2)]
