@@ -4,7 +4,11 @@ const Contact = () => {
   const submitForm = import.meta.env.VITE_SUBMIT_FORM;
 
   return (
-    <div name='contact' className="flex min-h-screen items-center justify-start px-2">
+    <div name='contact' className='flex flex-col mb-10'>
+      <div>
+        <p className='title'>Contact</p>
+      </div>
+    <div  className="flex items-center justify-start px-2">
       <div className="mx-auto w-full max-w-[600px] regular-text">
         <h1 className="text-4xl font-medium">Let's Engage</h1>
         <p className="mt-3">Email me at <span className='text-[var(--primary2)]'>davmwa90@gmail.com</span> or message me here:</p>
@@ -79,6 +83,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

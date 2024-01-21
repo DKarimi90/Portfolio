@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar"
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Projects from './components/Projects'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -30,11 +33,15 @@ const handleDarkToggle = () => {
   return (
     <div className={darkMode? 'dark': ''}>
         <div className="dark:bg-black">
+          <BrowserRouter>
       <Navbar handleDarkToggle={handleDarkToggle}/>
         <Home />
         <About />
         <Skills />
+        <Projects />
         <Contact />
+        <Footer />
+          </BrowserRouter>
       </div>
     </div>
   )

@@ -37,7 +37,7 @@ useEffect(() => {
   return (
     
     // Menu for the md, lg, and xl screens
-    <div className={`w-full h-20 md:h-24 z-10 fixed ${scroll? 'shadow-md bg-[#f8f9fa] dark:bg-black' : ''}`}>
+    <div className={`w-full h-16 md:h-24 z-10 fixed ${scroll? 'shadow-md bg-[#f8f9fa] dark:bg-black' : ''}`}>
         <div className='w-full h-full max-w-[1000px] mx-auto flex justify-between px-4 items-center '>
             <h1 className='text-2xl md:text-4xl font-bold text-[var(--primary2)] cursor-pointer  hover:text-[var(--secondary2)]'><Link to="home" smooth={true} duration="700">David</Link></h1>
             <div className='hidden md:flex'>

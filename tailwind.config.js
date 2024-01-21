@@ -1,4 +1,25 @@
 /** @type {import('tailwindcss').Config} */
+
+
+import plugin from 'tailwindcss/plugin';
+
+const MyStyle = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.my-rotate-y-180': {
+      transform: 'rotateY(180deg)',
+    },
+    '.preserve-3d': {
+      transformStyle: 'preserve-3d',
+    },
+    'perspective': {
+      perspective: '1000px'
+    }, 
+    '.backface-hidden': {
+      backfaceVisibility: 'hidden'
+    }
+  });
+});
+
 export default {
     darkMode: 'class',
   content: [
@@ -30,5 +51,5 @@ export default {
       animation: {navbar: 'navbar 5s ease-in-out', project: 'project 7s ease-in-out', about: 'about 5s ease-in-out'}
     },
   },
-  plugins: [],
+  plugins: [MyStyle],
 }

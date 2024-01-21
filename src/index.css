@@ -72,6 +72,9 @@
   .regular-text {
     @apply dark:text-[var(--secondary1)]
   }
+  .container {
+    @apply pt-16
+  }
 }
 
 html, body {
