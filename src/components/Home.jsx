@@ -63,7 +63,7 @@ return () => window.removeEventListener('scroll', handleScrollButton)
                     <a className='flex items-center' href="https://github.com/DKarimi90" target="_blank" rel="noreferrer" >Jump straight to my Github <span className='ml-6'> <BsGithub className=''/></span></a>             
              </div>
              <div className='flex justify-evenly mt-6 text-3xl dark:text-[var(--primary1)] max-w-[600px]'>
-                <a href="https://www.linkedin.com/in/karimi-m-345a79259/" target="_blank" rel="noreferrer"><BsLinkedin className='icon dark:hover:text-white'/></a>
+                <a href="https://www.linkedin.com/in/david-k-345a79259/" target="_blank" rel="noreferrer"><BsLinkedin className='icon dark:hover:text-white'/></a>
                 <a href="/"><BsFacebook className='icon dark:hover:text-white'/></a>
                 <a href="https://twitter.com/davyEsDee" target="_blank" rel="noreferrer"><BsTwitter className='icon dark:hover:text-white'/></a>
                 <a href="/"><BsWhatsapp className='icon dark:hover:text-white'/></a>
