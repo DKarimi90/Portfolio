@@ -6,7 +6,7 @@ const Projects = () => {
   <div name='projects' className='container md:mb-20 max-w-[1000px] mx-auto'>
       <div className='flex flex-col items-center'>
         <p className='title'>Projects</p>
-        <p className='dark:text-[var(--secondary2)]'>Here is a sample of Projects I have completed in the recent past</p>
+        <p className='dark:text-[var(--secondary2)]'>Here is a sample of Projects I am working on/completed in recent past</p>
       </div>
     <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-2'>
 
