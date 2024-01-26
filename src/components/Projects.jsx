@@ -22,7 +22,9 @@ const Projects = () => {
           <div className='absolute h-full w-full backface-hidden my-rotate-y-180 bg-white flex items-between justify-center px-3 pt-2 dark:border-[var(--secondary2)] border rounded-3xl dark:bg-black dark:text-[var(--secondary2)] text-sm sm:text-base overflow-hidden'>
             <p className=''>Web Razors' company profile web app seamlessly blends design and functionality, embodying professionalism, innovation, and a commitment to cutting-edge web solutions. It showcases the company's services, expertise, and achievements, providing a dynamic and engaging platform for clients and partners.</p>
             <div className='pt-4'>
-              <button className='btn rounded left-[30%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 '><NavLink to='https://web-razors.vercel.app/' target='_blank'>LIVE SITE</NavLink></button>
+              <button className='rounded left-[10%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 flex items-center'>
+                <p className='mr-2 font-bold'>In Progress</p>
+                <NavLink to='https://web-razors.vercel.app/' target='_blank' className='btn '>LIVE SITE</NavLink></button>
             </div>
           </div>
         </div>
@@ -41,7 +43,9 @@ const Projects = () => {
           <div className='absolute h-full w-full backface-hidden my-rotate-y-180 bg-white flex items-between justify-center px-3 pt-2 dark:border-[var(--secondary2)] border rounded-3xl dark:bg-black dark:text-[var(--secondary2)] text-sm sm:text-base overflow-hidden'>
             <p className=''>Step into the world of 'Blog Box,' a robust MERN stack application where users unleash their creativity by sharing compelling blogs. Powered by MongoDB, Express, React, and Node.js, this platform seamlessly integrates user-friendly features, encouraging a vibrant community to connect, explore, and share their thoughts through engaging and insightful blog posts.</p>
             <div className='pt-4'>
-              <button className='btn rounded left-[30%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 '><NavLink to='https://weblog-client.vercel.app/' target='_blank'>LIVE SITE</NavLink></button>
+              <div className='rounded left-[10%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 flex items-center'>
+                 <p className='mr-2 font-bold'>In Progress</p>
+                <NavLink to='https://weblog-client.vercel.app/' target='_blank' className='btn'>LIVE SITE</NavLink></div>
             </div>
           </div>
         </div>
@@ -59,7 +63,9 @@ const Projects = () => {
           <div className='absolute h-full w-full backface-hidden my-rotate-y-180 bg-white flex items-between justify-center px-3 pt-2 dark:border-[var(--secondary2)] border rounded-3xl dark:bg-black dark:text-[var(--secondary2)] text-sm sm:text-base overflow-hidden'>
             <p className=''>Embark on a virtual journey with 'Travels,' a static travel website where my React and Tailwind CSS skills shine. This project, a testament to my passion for web development, offers a seamless fusion of beautiful design and responsive functionality, showcasing picturesque destinations and honing my expertise in front-end technologies.</p>
             <div className='pt-4'>
-              <button className='btn rounded left-[30%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 '><NavLink to='https://travellers-five.vercel.app/' target='_blank'>LIVE SITE</NavLink></button>
+              <div className='rounded left-[10%] -bottom-20 absolute delay-500 duration-500 group-hover:bottom-5 flex items-center'>
+                <p className='mr-2 font-bold'>In Progress</p>
+                <NavLink to='https://travellers-five.vercel.app/' target='_blank' className='btn'>LIVE SITE</NavLink></div>
             </div>
           </div>
         </div>
