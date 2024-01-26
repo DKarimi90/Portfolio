@@ -34,7 +34,7 @@ function App() {
         <div className={darkMode ? 'dark' : ''}>
             <div className="dark:bg-black">
                 <BrowserRouter>
-                    <Navbar handleDarkToggle={handleDarkToggle} />
+                    <Navbar handleDarkToggle={handleDarkToggle} darkMode={darkMode}/>
                     <Home />
                     <About />
                     <Skills />
