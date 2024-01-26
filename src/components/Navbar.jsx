@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 import {BsFillMoonStarsFill, BsFacebook, BsLinkedin, BsGithub, BsWhatsapp, BsTwitter} from 'react-icons/bs'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
-const Navbar = ( {handleDarkToggle} ) => {
+const Navbar = ( {handleDarkToggle, darkMode} ) => {
 const [nav, setNav] = useState()
 const [scroll, setScroll] = useState(false)
 const [time, setTime]=useState(new Date())
@@ -11,6 +11,7 @@ const [time, setTime]=useState(new Date())
 const toggleNav = () => {
     setNav(!nav)
 }
+
 
 // navbar functionality 
 useEffect(() => {
@@ -46,7 +47,9 @@ useEffect(() => {
                 <Link to="skills" className='links' smooth={true} duration="700" activeClass='active-link' spy={true}>Skills</Link>
                 <Link to="projects" className='links' smooth={true} duration="700" activeClass='active-link' spy={true}>Projects</Link>
                 <Link to="contact" className='links' smooth={true} duration="700" activeClass='active-link' spy={true}>Contact</Link>
-                <button onClick={handleDarkToggle} className='ml-4 dark:text-[--primary1]'><BsFillMoonStarsFill /></button>
+                <div>
+                  <button onClick={handleDarkToggle} className='ml-4 dark:text-[--primary1] transform hover:rotate-[360deg] duration-700'><BsFillMoonStarsFill /></button>
+                </div>
             </div>
             <div className='dark:text-[var(--primary1)]'>
                 {time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false })}
