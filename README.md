@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-Welcome to my personal portfolio! This project is built using Vite, a blazing fast frontend build tool for modern web development. This portfolio showcases my skills, projects, and experiences.
+Welcome to my personal portfolio! This project is built using Vite, a blazing fast frontend build tool for modern web development. This portfolio showcases my skills and projects.
 
 ## Table of Contents
 - [Features](#features)
