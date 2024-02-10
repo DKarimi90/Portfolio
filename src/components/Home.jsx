@@ -8,10 +8,10 @@ const Home = () => {
 const [showButton, setShowButton] = useState()
 
   const handleDownloadCV = () => {
-    const filePath = './files/David_Resume.pdf';
+    const filePath = './files/Karimi_Resume.pdf';
     const link = document.createElement('a');
     link.href = import.meta.env.BASE_URL + filePath;
-    link.download = 'David_Resume.pdf';
+    link.download = 'Karimi_Resume.pdf';
     link.click();
   };
 
